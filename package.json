@@ -1,0 +1,17 @@
+{
+  "name": "webpack-plugin-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "debug": "node --inspect-brk node_modules/webpack/bin/webpack.js",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "kwzm",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.2"
+  }
+}
